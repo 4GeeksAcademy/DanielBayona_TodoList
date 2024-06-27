@@ -35,6 +35,7 @@ const Layout = () => {
 			<div className="container">
 				<div className="tittle">
 				<h1>Your Todo List</h1>
+				<h2>{`You have: ${tasks.length} tasks left`}</h2>
 				</div>
 				<div className="myForm col-sm-2 justify-content-center mb-4">
 				<form className="p-3 rounded-start col-lg-12 col-sm-4 col-md-8" onSubmit={handleFormSubmit}>
